@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Conatct </title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="backCntct">
+    <form action="">
+        <p><label class="boldlabl">First Name:</label> 
+            <input type="text" name="fname" size="15" maxlength="20" />
+        </p>
+        <p><label class="boldlabl">Last Name:</label> 
+            <input type="text" name="lname" size="15" maxlength="20" />
+        </p>
+        <p><label class="boldlabl">Email:</label> 
+            <input type="email" name="email" size="15" maxlength="30" />
+        </p>
+        <p><label class="boldlabl">Username:</label>
+            <input type="text" name="username" size="15" maxlength="20" />
+        </p>
+        <p><label class="boldlabl">Password:</label> 
+            <input type="password" name="password" size="15" maxlength="20" />
+        </p>
+        <p> <label class="boldlabl">Gender:</label> 
+            <br />
+            <input type="radio" name="gender" value="Male" checked="checked" /> Male
+            <input type="radio" name="gender" value="Female" />
+            Female
+
+        </p>
+
+        <label class="boldlabl">Birth date:</label>
+        <input type="date" name="reg" />
+
+        <p class="boldlabl">Please select your favorite Days:
+            <br />
+            <input type="checkbox" name="days" value="monday" /> Monday
+            <input type="checkbox" name="days" value="tuesday" /> Tuesday
+            <input type="checkbox" name="days" value="wednesday" /> Wednesday
+            <input type="checkbox" name="days" value="thursday" /> Thursday
+            <input type="checkbox" name="days" value="friday" /> Friday
+            <input type="checkbox" name="days" value="saturday" checked="checked" /> Saturday
+
+        </p>
+
+        <p class="boldlabl">Please select your Qualification?</p>
+        <select name="qualification">
+            <option value="Bachlor">Bachlor</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Matric">Matric</option>
+        </select>
+
+        <p class="boldlabl">Upload your image in jpg format:</p>
+        <input type="file" name="user-image" /><br /><br>
+
+        <label class="boldlabl">Registration date:</label>
+        <input type="date" name="reg" />
+
+        <p class="boldlabl">Comment:</p>
+        <textarea name="comments" cols="20" rows="4">Message</textarea>
+        <br>
+        <input type="submit" value="Submit" />
+
+    </form>
+</body>
+
+</html>

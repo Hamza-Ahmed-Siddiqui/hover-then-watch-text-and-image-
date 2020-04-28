@@ -1,0 +1,120 @@
+.back_about{
+    background-color: rgb(229, 168, 149);
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.colr{
+    color: rgb(66, 74, 138);
+}
+.brdr{
+    background-color: rgb(245, 209, 209);
+    border: 2px solid black;
+    padding: 10px;
+}
+.tblclr{
+    background-color: burlywood;
+}
+.tbldata{
+    background-color: rgb(245, 209, 209);
+}
+.backCntct{
+    background-color: rgb(236, 200, 200);
+}
+
+.boldlabl{
+    font-weight: bold;
+}
+.hgalery{
+    text-align: center;
+    background-color: rgb(202, 134, 134);
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    padding-top: 10px;
+}
+.backGalry{
+    background-color: rgb(235, 209, 209);
+    text-align: center;
+}
+.mainpic{
+    width: 250px;
+background-color: white;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px;
+    
+    margin: 10px;
+}
+.des{
+
+    text-align: left;
+    width: 230px;
+    margin: 5px;
+}
+.desbtn{
+    width: 100%;
+    height: 35px;
+    background-color: teal;
+    color: white;
+}
+
+.mainpic:hover{
+    box-shadow: 3px 3px 15px 3px gray;
+}
+
+.logo{
+    width:180px;
+    height: 100px;
+}
+.backindx{
+    background-color: black;
+    text-align: center;
+}
+.navbar{
+    display: inline;
+    margin: 10px;
+}
+
+.nvclr{
+    color: white;
+    text-decoration: none;
+}
+
+.child{
+    display: inline-block;
+    margin: 10px;
+}
+
+.indxpic{
+    width: 250px;
+    height: 200px;  
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px;
+}
+.parent{
+    text-align: center;
+}
+
+.indxpic:hover {
+    box-shadow: 2px 2px 15px 2px white;
+}
+
+.childP{
+   
+    width: 200px;
+    margin: 20px;
+    text-align: left;
+    color: white;
+    display: none;
+
+}
+.indxP{
+    color: white;
+}
+
+.child:hover .childP{
+    display: grid;
+}
+
